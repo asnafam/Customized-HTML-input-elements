@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url('https://themes.googleusercontent.com/static/fonts/lato/v5/KT3KS9Aol4WfR6Vas8kNcg.woff') format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url('https://themes.googleusercontent.com/static/fonts/lato/v5/9k-RPmcnxYEPm8CNFsH2gg.woff') format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url('https://themes.googleusercontent.com/static/fonts/lato/v5/wkfQbvfT_02e2IWO3yYueQ.woff') format('woff');
+}
+*{margin:0; padding:0; outline:none; font-family: 'Lato', sans-serif;}
+ul{list-style:none; list-style:none;}
+
+div.demo{padding: 50px 0 0 100px; margin: 0 auto; width: 400px;}
+div.demo ul li{padding-bottom: 12px; height:auto; overflow: hidden;}
+div.demo ul li.dropdown{overflow: visible;}
+
+input[type=button]{ box-shadow: 5px 5px 7px black; -webkit-box-shadow: 5px 5px 7px black; cursor: pointer; padding: 5px;}
+
+input.html5-textbox{height:32px; width:270px; font-weight:400; font-size:13px; padding:0 5px; color:#7F7FBB; box-shadow: 2px 2px 2px grey; border-radius: 2px 2px 2px 2px; background-color: #EDEDED;}
+
+input.html5-textbox.active{color:#000066; border: 2px solid #000066;}
+
+input.html5-textbox.active-text{color:#000066;}
+
+input.html5-textbox.error{color:#000066; border: 2px solid #D71F0C;}
+
+a{cursor: pointer;text-decoration: underline;}
